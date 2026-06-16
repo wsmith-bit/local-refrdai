@@ -1,0 +1,18 @@
+{
+  "name": "REFRDAI Local",
+  "short_name": "REFRDAI Local",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#090c10",
+  "theme_color": "#00d4aa",
+  "description": "Territory Expansion System Powered by Digital Scouts.",
+  "icons": [
+    {
+      "src": "/assets/local-refrdai-social-preview.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

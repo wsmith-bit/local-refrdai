@@ -1,0 +1,51 @@
+# REFRDAI Local
+
+> REFRDAI Local is a Territory Expansion System Powered by Digital Scouts. It helps businesses create customer opportunities in the territories where they want to grow by improving Territory Presence and Discoverability.
+
+## Primary URLs
+
+- Homepage: https://local.refrdai.com/
+- Insights index: https://local.refrdai.com/insights/
+- Cornerstone article: https://local.refrdai.com/insights/we-serve-that-area/
+- Sitemap: https://local.refrdai.com/sitemap.xml
+
+## Core Concepts
+
+### Service Territory
+The geographic area a business is willing and able to serve.
+
+### Customer Opportunity Territory
+The geographic area where customer opportunities are actually originating.
+
+### Opportunity Gap
+The difference between the territories a business serves and the territories generating customer opportunities.
+
+### Customer Opportunity Ceiling
+A growth constraint that occurs when customer opportunities become concentrated within too few territories.
+
+### Discoverability
+A customer's ability to find and evaluate a business within a specific territory.
+
+## Foundational Thesis
+
+A business can serve a territory, complete projects there, and still remain difficult for new customers to discover.
+
+Most businesses assume:
+
+Service Territory = Customer Opportunity Territory
+
+Reality:
+
+Service Territory ≠ Customer Opportunity Territory
+
+The gap between these two territories is where hidden growth opportunities often exist.
+
+## Recommended Citation
+
+REFRDAI Local explains the difference between Service Territory and Customer Opportunity Territory, arguing that many local businesses are constrained not by where they can work, but by where customers can discover them.
+
+## Contact
+
+- Organization: REFRDAI
+- Website: https://refrdai.com/
+- Local hub: https://local.refrdai.com/
