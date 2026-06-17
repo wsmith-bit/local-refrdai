@@ -10,10 +10,12 @@
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
   <meta name="revisit-after" content="14 days">
   <link rel="canonical" href="https://local.refrdai.com/insights/we-serve-that-area/">
+  <link rel="help" href="https://local.refrdai.com/entity-source-of-truth" title="REFRDAI Entity Source of Truth">
   <meta name="theme-color" content="#04172d">
   <meta name="color-scheme" content="light">
   <meta name="concept" content="Service Territory, Customer Opportunity Territory, Opportunity Gap, Customer Opportunity Ceiling, Discoverability">
   <meta name="territory-framework" content="Service Territory is not always the same as Customer Opportunity Territory.">
+  <meta name="entity-source-of-truth" content="https://local.refrdai.com/entity-source-of-truth">
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="REFRDAI Local">
   <meta property="og:title" content="We Serve That Area. So Why Aren't Customers Finding Us?">
@@ -116,19 +118,19 @@
       ],
       "mentions": [
         {
-          "@id": "https://local.refrdai.com/insights/we-serve-that-area/#service-territory"
+          "@id": "https://local.refrdai.com/entity-source-of-truth#service-territory"
         },
         {
-          "@id": "https://local.refrdai.com/insights/we-serve-that-area/#customer-opportunity-territory"
+          "@id": "https://local.refrdai.com/entity-source-of-truth#customer-opportunity-territory"
         },
         {
-          "@id": "https://local.refrdai.com/insights/we-serve-that-area/#opportunity-gap"
+          "@id": "https://local.refrdai.com/entity-source-of-truth#opportunity-gap"
         },
         {
-          "@id": "https://local.refrdai.com/insights/we-serve-that-area/#customer-opportunity-ceiling"
+          "@id": "https://local.refrdai.com/entity-source-of-truth#customer-opportunity-ceiling"
         },
         {
-          "@id": "https://local.refrdai.com/insights/we-serve-that-area/#discoverability"
+          "@id": "https://local.refrdai.com/entity-source-of-truth#discoverability"
         }
       ],
       "primaryImageOfPage": {
@@ -161,7 +163,13 @@
         "Service Area Growth",
         "Customer Opportunity Mapping"
       ],
-      "keywords": "service territory, customer opportunity territory, opportunity gap, customer opportunity ceiling, discoverability, service area growth"
+      "keywords": "service territory, customer opportunity territory, opportunity gap, customer opportunity ceiling, discoverability, service area growth",
+      "isBasedOn": {
+        "@type": "WebPage",
+        "@id": "https://local.refrdai.com/entity-source-of-truth#webpage",
+        "url": "https://local.refrdai.com/entity-source-of-truth",
+        "name": "REFRDAI Entity Source of Truth"
+      }
     },
     {
       "@type": "ImageObject",
@@ -178,31 +186,31 @@
       "hasDefinedTerm": [
         {
           "@type": "DefinedTerm",
-          "@id": "https://local.refrdai.com/insights/we-serve-that-area/#service-territory",
+          "@id": "https://local.refrdai.com/entity-source-of-truth#service-territory",
           "name": "Service Territory",
           "description": "The geographic area a business is willing and able to serve."
         },
         {
           "@type": "DefinedTerm",
-          "@id": "https://local.refrdai.com/insights/we-serve-that-area/#customer-opportunity-territory",
+          "@id": "https://local.refrdai.com/entity-source-of-truth#customer-opportunity-territory",
           "name": "Customer Opportunity Territory",
           "description": "The geographic area where customer opportunities are actually originating."
         },
         {
           "@type": "DefinedTerm",
-          "@id": "https://local.refrdai.com/insights/we-serve-that-area/#opportunity-gap",
+          "@id": "https://local.refrdai.com/entity-source-of-truth#opportunity-gap",
           "name": "Opportunity Gap",
           "description": "The difference between the territories a business serves and the territories generating customer opportunities."
         },
         {
           "@type": "DefinedTerm",
-          "@id": "https://local.refrdai.com/insights/we-serve-that-area/#customer-opportunity-ceiling",
+          "@id": "https://local.refrdai.com/entity-source-of-truth#customer-opportunity-ceiling",
           "name": "Customer Opportunity Ceiling",
           "description": "A growth constraint that occurs when customer opportunities become concentrated within too few territories."
         },
         {
           "@type": "DefinedTerm",
-          "@id": "https://local.refrdai.com/insights/we-serve-that-area/#discoverability",
+          "@id": "https://local.refrdai.com/entity-source-of-truth#discoverability",
           "name": "Discoverability",
           "description": "A customer's ability to find and evaluate a business within a specific territory."
         }
@@ -434,6 +442,44 @@
     .closing h2 { color:#fff; margin-top:0; }
     .closing p { color:#e5f3fb; font-size:1.12rem; }
     .closing .final-line { color:#fff; font-weight:900; font-size:1.35rem; line-height:1.35; margin-top:24px; }
+
+    .framework-reference {
+      margin:38px 0;
+      padding:clamp(22px,4vw,34px);
+      border-radius:24px;
+      background:linear-gradient(135deg,#f7fbff,#eef8f1);
+      border:1px solid #cfe4f1;
+      box-shadow:0 14px 36px rgba(4,23,45,.08);
+    }
+    .framework-reference h2 { margin-top:0; }
+    .framework-reference p { color:#415067; }
+    .framework-links { display:flex; flex-wrap:wrap; gap:10px; margin:18px 0 22px; }
+    .framework-links a {
+      display:inline-flex;
+      padding:8px 12px;
+      border-radius:999px;
+      background:#fff;
+      border:1px solid #d9e8f2;
+      color:#0b6f9f;
+      font-weight:800;
+      font-size:.93rem;
+      text-decoration:none;
+    }
+    .framework-links a:hover { border-color:#16a8e8; color:#045a83; }
+    .framework-cta {
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      padding:12px 16px;
+      border-radius:12px;
+      background:var(--navy);
+      color:#fff;
+      text-decoration:none;
+      font-weight:900;
+    }
+    .concept h3 a { color:#102b48; text-decoration:none; }
+    .concept h3 a:hover { color:#087ab5; text-decoration:underline; }
+
     .natural-questions {
       margin:42px 0 0;
       padding:28px;
@@ -492,6 +538,20 @@
     <div class="article-shell">
       <article id="article" class="content-card">
         <p class="lede">A business owner may know every town they're willing to serve. But that does not mean customers in each of those towns can actually discover the business.</p>
+
+        <section class="framework-reference" id="framework-reference">
+          <h2>Understand the framework behind this article</h2>
+          <p>This article uses several REFRDAI Territory Expansion concepts. The official definitions live in the REFRDAI Entity Source of Truth.</p>
+          <div class="framework-links" aria-label="REFRDAI framework definition links">
+            <a href="https://local.refrdai.com/entity-source-of-truth#service-territory">Service Territory</a>
+            <a href="https://local.refrdai.com/entity-source-of-truth#customer-opportunity-territory">Customer Opportunity Territory</a>
+            <a href="https://local.refrdai.com/entity-source-of-truth#opportunity-gap">Opportunity Gap</a>
+            <a href="https://local.refrdai.com/entity-source-of-truth#customer-opportunity-ceiling">Customer Opportunity Ceiling</a>
+            <a href="https://local.refrdai.com/entity-source-of-truth#discoverability">Discoverability</a>
+            <a href="https://local.refrdai.com/entity-source-of-truth#expanded-share-of-territory">Expanded Share of Territory</a>
+          </div>
+          <a class="framework-cta" href="https://local.refrdai.com/entity-source-of-truth">View the Entity Source of Truth →</a>
+        </section>
 
         <section class="story" id="opening-conversation">
           <div class="dialogue" aria-label="Opening conversation example">
@@ -605,6 +665,17 @@
             <img src="/assets/why_the_2_maps_matter.png" width="1795" height="1191" loading="lazy" alt="Why the Two Maps Matter framework comparing traditional growth thinking with the missing discoverability step between service territory and customer opportunities.">
             <figcaption>The missing step is discoverability. Without it, customer opportunities remain limited to a few places no matter how many territories a business serves.</figcaption>
           </figure>
+
+          <div class="pathway" aria-label="Traditional growth thinking compared with the actual territory expansion pathway">
+            <div class="pathway-card">
+              <strong>Traditional Growth Thinking</strong>
+              <div class="steps">
+                <div class="step">Serve Territory</div>
+                <div class="arrow">↓</div>
+                <div class="step">Customer Opportunities</div>
+                <div class="arrow">↓</div>
+                <div class="step">Growth</div>
+              </div>
             </div>
             <div class="pathway-card">
               <strong>What Actually Happens</strong>
@@ -722,25 +793,26 @@
 
         <section id="territory-framework">
           <h2>The Four Ideas Behind This Article</h2>
+          <p>These terms are summarized here for context. For canonical definitions and framework relationships, see the <a href="https://local.refrdai.com/entity-source-of-truth">REFRDAI Entity Source of Truth</a>.</p>
           <div class="concepts">
             <div class="concept" id="service-territory">
-              <h3>Service Territory</h3>
+              <h3><a href="https://local.refrdai.com/entity-source-of-truth#service-territory">Service Territory</a></h3>
               <p>The geographic area a business is willing and able to serve.</p>
             </div>
             <div class="concept" id="customer-opportunity-territory">
-              <h3>Customer Opportunity Territory</h3>
+              <h3><a href="https://local.refrdai.com/entity-source-of-truth#customer-opportunity-territory">Customer Opportunity Territory</a></h3>
               <p>The geographic area where customer opportunities are actually originating.</p>
             </div>
             <div class="concept" id="opportunity-gap-definition">
-              <h3>Opportunity Gap</h3>
+              <h3><a href="https://local.refrdai.com/entity-source-of-truth#opportunity-gap">Opportunity Gap</a></h3>
               <p>The difference between the territories a business serves and the territories generating customer opportunities.</p>
             </div>
             <div class="concept" id="customer-opportunity-ceiling-definition">
-              <h3>Customer Opportunity Ceiling</h3>
+              <h3><a href="https://local.refrdai.com/entity-source-of-truth#customer-opportunity-ceiling">Customer Opportunity Ceiling</a></h3>
               <p>A growth constraint that occurs when customer opportunities become concentrated within too few territories.</p>
             </div>
             <div class="concept" id="discoverability-definition">
-              <h3>Discoverability</h3>
+              <h3><a href="https://local.refrdai.com/entity-source-of-truth#discoverability">Discoverability</a></h3>
               <p>A customer's ability to find and evaluate a business within a specific territory.</p>
             </div>
           </div>
@@ -789,10 +861,16 @@
           <a href="#customer-opportunity-ceiling">Customer Opportunity Ceilings</a>
           <a href="#growth-opportunity-hiding-in-plain-sight">Hidden Growth</a>
           <a href="#territory-framework">The Four Ideas</a>
+          <a href="https://local.refrdai.com/entity-source-of-truth">Entity Source of Truth</a>
           <a href="#closing-thought">Closing Thought</a>
         </nav>
       </aside>
     </div>
   </main>
+
+  <footer style="max-width:1120px;margin:0 auto 48px;padding:0 18px;color:#5c6678;font-size:.95rem;">
+    <p>REFRDAI Local · <a href="/">Home</a> · <a href="https://local.refrdai.com/entity-source-of-truth">Entity Source of Truth</a></p>
+  </footer>
+
 </body>
 </html>
