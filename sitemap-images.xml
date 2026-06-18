@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset
+xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+    <!-- Homepage -->
+
+    <url>
+        <loc>https://local.refrdai.com/</loc>
+
+        <image:image>
+            <image:loc>https://local.refrdai.com/assets/local-refrdai-social-preview.png</image:loc>
+            <image:title>REFRDAI Territory Expansion System</image:title>
+        </image:image>
+
+        <image:image>
+            <image:loc>https://local.refrdai.com/assets/refrdai-digital-scout-dashboard.jpg</image:loc>
+            <image:title>REFRDAI Digital Scout Dashboard</image:title>
+        </image:image>
+
+    </url>
+
+    <!-- Why REFRDAI Exists -->
+
+    <url>
+        <loc>https://local.refrdai.com/why-refrdai-exists/</loc>
+
+        <image:image>
+            <image:loc>https://local.refrdai.com/assets/why_refrdai_exists.png</image:loc>
+            <image:title>Why REFRDAI Exists</image:title>
+        </image:image>
+
+    </url>
+
+    <!-- Entity Source of Truth -->
+
+    <url>
+        <loc>https://local.refrdai.com/entity-source-of-truth/</loc>
+
+        <image:image>
+            <image:loc>https://local.refrdai.com/assets/why_the_2_maps_matter.png</image:loc>
+            <image:title>Why The Two Maps Matter</image:title>
+        </image:image>
+
+        <image:image>
+            <image:loc>https://local.refrdai.com/assets/the_2_maps.png</image:loc>
+            <image:title>Service Territory vs Customer Opportunity Territory</image:title>
+        </image:image>
+
+    </url>
+
+    <!-- We Serve That Area -->
+
+    <url>
+        <loc>https://local.refrdai.com/insights/we-serve-that-area/</loc>
+
+        <image:image>
+            <image:loc>https://local.refrdai.com/assets/article_hero_we_serve.png</image:loc>
+            <image:title>We Serve That Area So Why Aren't Customers Finding Us</image:title>
+        </image:image>
+
+        <image:image>
+            <image:loc>https://local.refrdai.com/assets/the_2_maps.png</image:loc>
+            <image:title>The Two Maps Framework</image:title>
+        </image:image>
+
+        <image:image>
+            <image:loc>https://local.refrdai.com/assets/why_the_2_maps_matter.png</image:loc>
+            <image:title>Why The Two Maps Matter Framework</image:title>
+        </image:image>
+
+    </url>
+
+    <!-- Invisible Territories -->
+
+    <url>
+        <loc>https://local.refrdai.com/insights/invisible-territories/</loc>
+
+        <image:image>
+            <image:loc>https://local.refrdai.com/assets/a-business-can-serve-a-territory-and-still-be-invisible-there-hero.png</image:loc>
+            <image:title>A Business Can Serve A Territory And Still Be Invisible There</image:title>
+        </image:image>
+
+        <image:image>
+            <image:loc>https://local.refrdai.com/assets/visibility-assumption-graphic.png</image:loc>
+            <image:title>The Visibility Assumption</image:title>
+        </image:image>
+
+        <image:image>
+            <image:loc>https://local.refrdai.com/assets/service-coverage-vs-discoverability.png</image:loc>
+            <image:title>Service Coverage vs Discoverability</image:title>
+        </image:image>
+
+        <image:image>
+            <image:loc>https://local.refrdai.com/assets/service-territory-vs-customer-opportunity-territory.png</image:loc>
+            <image:title>Service Territory vs Customer Opportunity Territory</image:title>
+        </image:image>
+
+        <image:image>
+            <image:loc>https://local.refrdai.com/assets/territory-covered-customer-cant-find-you-quote-card.png</image:loc>
+            <image:title>Territory Feels Covered But Customers Cannot Find You</image:title>
+        </image:image>
+
+        <image:image>
+            <image:loc>https://local.refrdai.com/assets/invisible-territories-framework.png</image:loc>
+            <image:title>Invisible Territories Framework</image:title>
+        </image:image>
+
+        <image:image>
+            <image:loc>https://local.refrdai.com/assets/hidden-customer-opportunities.png</image:loc>
+            <image:title>Hidden Customer Opportunities</image:title>
+        </image:image>
+
+        <image:image>
+            <image:loc>https://local.refrdai.com/assets/discoverability-drives-growth.png</image:loc>
+            <image:title>Discoverability Drives Growth</image:title>
+        </image:image>
+
+        <image:image>
+            <image:loc>https://local.refrdai.com/assets/REFRDAI_Closing_Reflection_Invisible_Territories.png</image:loc>
+            <image:title>Invisible Territories Closing Reflection</image:title>
+        </image:image>
+
+    </url>
+
+    <!-- Customer Opportunity Ceiling -->
+
+    <url>
+        <loc>https://local.refrdai.com/insights/customer-opportunity-ceiling/</loc>
+
+        <image:image>
+            <image:loc>https://local.refrdai.com/assets/cust-opportunity-hero.png</image:loc>
+            <image:title>Customer Opportunity Ceiling</image:title>
+        </image:image>
+
+        <image:image>
+            <image:loc>https://local.refrdai.com/assets/ter-served-vs-ter-growth.png</image:loc>
+            <image:title>Territories Served vs Territories Driving Growth</image:title>
+        </image:image>
+
+        <image:image>
+            <image:loc>https://local.refrdai.com/assets/cust-opportunity-dist-ex.png</image:loc>
+            <image:title>Customer Opportunity Distribution Example</image:title>
+        </image:image>
+
+        <image:image>
+            <image:loc>https://local.refrdai.com/assets/cust-opportunity-ceiling-framework.png</image:loc>
+            <image:title>Customer Opportunity Ceiling Framework</image:title>
+        </image:image>
+
+        <image:image>
+            <image:loc>https://local.refrdai.com/assets/opportunity-gap-creates-ceiling.png</image:loc>
+            <image:title>Opportunity Gap Creates Customer Opportunity Ceiling</image:title>
+        </image:image>
+
+        <image:image>
+            <image:loc>https://local.refrdai.com/assets/opportunity-ceiling-quote.png</image:loc>
+            <image:title>Customer Opportunity Ceiling Quote</image:title>
+        </image:image>
+
+        <image:image>
+            <image:loc>https://local.refrdai.com/assets/cust_ceiling.png</image:loc>
+            <image:title>Customer Opportunity Ceiling Growth Constraint</image:title>
+        </image:image>
+
+        <image:image>
+            <image:loc>https://local.refrdai.com/assets/cust_opportunity_conc.png</image:loc>
+            <image:title>Customer Opportunity Concentration</image:title>
+        </image:image>
+
+        <image:image>
+            <image:loc>https://local.refrdai.com/assets/final_thought_territory.png</image:loc>
+            <image:title>Customer Opportunity Ceiling Closing Reflection</image:title>
+        </image:image>
+
+    </url>
+
+</urlset>
