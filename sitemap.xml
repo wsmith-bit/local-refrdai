@@ -44,4 +44,10 @@
         <priority>0.85</priority>
     </url>
 
+    <url>
+        <loc>https://local.refrdai.com/foundation-crawlspace-waterproofing-contractors/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.90</priority>
+    </url>
+
 </urlset>
