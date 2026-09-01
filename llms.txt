@@ -16,6 +16,18 @@
 - Standby-generator installers: https://local.refrdai.com/industries/standby-generator-installers/
 - Drainage, grading, and erosion-control contractors: https://local.refrdai.com/industries/drainage-grading-erosion-control-contractors/
 - Inground-pool builders: https://local.refrdai.com/industries/inground-pool-builders/
+- Tree service companies: https://local.refrdai.com/industries/tree-service-companies/
+- Asphalt paving contractors: https://local.refrdai.com/industries/asphalt-paving-contractors/
+- Concrete driveway and flatwork contractors: https://local.refrdai.com/industries/concrete-driveway-contractors/
+- Fence installation contractors: https://local.refrdai.com/industries/fence-installation-contractors/
+- Aging-in-place and home-accessibility remodelers: https://local.refrdai.com/industries/aging-in-place-remodelers/
+- Insulation and air-sealing contractors: https://local.refrdai.com/industries/insulation-contractors/
+- Epoxy-floor and concrete-coating contractors: https://local.refrdai.com/industries/epoxy-floor-concrete-coating-contractors/
+- Deck and outdoor-living contractors: https://local.refrdai.com/industries/deck-outdoor-living-contractors/
+- Garage-door installation companies: https://local.refrdai.com/industries/garage-door-installation-companies/
+- Chimney and masonry repair contractors: https://local.refrdai.com/industries/chimney-masonry-repair-contractors/
+- Water, fire, and mold-restoration companies: https://local.refrdai.com/industries/water-fire-mold-restoration-companies/
+- Commercial cleaning and janitorial companies: https://local.refrdai.com/industries/commercial-cleaning-janitorial-companies/
 
 ## Core Concepts
 
