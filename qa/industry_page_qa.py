@@ -128,9 +128,11 @@ def main() -> int:
     failures: list[str] = []
     parsed: dict[str, tuple[set[tuple[str, ...]], list[str]]] = {}
     titles: dict[str, str] = {}
+    h1s: dict[str, str] = {}
+    heading_signatures: dict[tuple[str, ...], str] = {}
     print(f"Checking {len(PAGES)} industry pages")
-    if len(PAGES) != 6:
-        failures.append(f"expected 6 pages, found {len(PAGES)}")
+    if len(PAGES) != 18:
+        failures.append(f"expected 18 pages, found {len(PAGES)}")
 
     for path in PAGES:
         source = path.read_text(encoding="utf-8")
@@ -158,10 +160,28 @@ def main() -> int:
             missing.append("title or meta description")
         title_match = re.search(r"<title>(.*?)</title>", source, re.I | re.S)
         if title_match:
-            title = re.sub(r"\s+", " ", title_match.group(1)).strip()
+            title = unescape(re.sub(r"\s+", " ", title_match.group(1)).strip())
             if title in titles:
                 missing.append(f"duplicate title with {titles[title]}")
             titles[title] = label
+            if not 35 <= len(title) <= 65:
+                missing.append(f"title length {len(title)} outside 35-65 characters")
+            if "marketing" not in title.lower() and "leads" not in title.lower():
+                missing.append("title does not express owner search intent")
+        description_match = re.search(r'<meta name="description" content="([^"]+)"', source, re.I)
+        if description_match:
+            description = unescape(description_match.group(1)).strip()
+            if not 120 <= len(description) <= 170:
+                missing.append(f"meta description length {len(description)} outside 120-170 characters")
+        if parser.headings:
+            h1 = parser.headings[0]
+            if h1 in h1s:
+                missing.append(f"duplicate H1 with {h1s[h1]}")
+            h1s[h1] = label
+            signature = tuple(parser.headings)
+            if signature in heading_signatures:
+                missing.append(f"duplicate heading structure with {heading_signatures[signature]}")
+            heading_signatures[signature] = label
         for href in re.findall(r'href="(/[^"]*)"', source, re.I):
             target = urlparse(href).path
             local = ROUTE_ALIASES.get(target, ROOT / target.lstrip("/"))
@@ -172,6 +192,19 @@ def main() -> int:
         if missing:
             failures.append(f"{label}: {', '.join(missing)}")
         print(f"- {label}: {len(parser.text)} text segments, {len(parser.headings)} headings")
+
+    hub_source = (ROOT / "industries" / "index.html").read_text(encoding="utf-8")
+    sitemap_source = (ROOT / "sitemap.xml").read_text(encoding="utf-8")
+    llms_source = (ROOT / "llms.txt").read_text(encoding="utf-8")
+    for path in PAGES:
+        route = f"/industries/{path.parent.name}/"
+        canonical = f"https://local.refrdai.com{route}"
+        if f'href="{route}"' not in hub_source:
+            failures.append(f"hub missing {route}")
+        if canonical not in sitemap_source:
+            failures.append(f"sitemap missing {canonical}")
+        if canonical not in llms_source:
+            failures.append(f"llms.txt missing {canonical}")
 
     print("\nFull-set copy and structured-data audit:")
     for path in FULL_SET:
