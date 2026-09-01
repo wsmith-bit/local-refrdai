@@ -9,6 +9,13 @@
 - Cornerstone article: https://local.refrdai.com/insights/we-serve-that-area/
 - Sitemap: https://local.refrdai.com/sitemap.xml
 - Foundation, crawl-space, and basement-waterproofing contractor offer: https://local.refrdai.com/foundation-crawlspace-waterproofing-contractors/
+- Industries: https://local.refrdai.com/industries/
+- Septic installation contractors: https://local.refrdai.com/industries/septic-installation-contractors/
+- Water-well drilling contractors: https://local.refrdai.com/industries/water-well-drilling-contractors/
+- Land-clearing and site-preparation contractors: https://local.refrdai.com/industries/land-clearing-site-preparation-contractors/
+- Standby-generator installers: https://local.refrdai.com/industries/standby-generator-installers/
+- Drainage, grading, and erosion-control contractors: https://local.refrdai.com/industries/drainage-grading-erosion-control-contractors/
+- Inground-pool builders: https://local.refrdai.com/industries/inground-pool-builders/
 
 ## Core Concepts
 
