@@ -50,4 +50,12 @@
         <priority>0.90</priority>
     </url>
 
+    <url><loc>https://local.refrdai.com/industries/</loc><changefreq>monthly</changefreq><priority>0.95</priority></url>
+    <url><loc>https://local.refrdai.com/industries/septic-installation-contractors/</loc><changefreq>monthly</changefreq><priority>0.90</priority></url>
+    <url><loc>https://local.refrdai.com/industries/water-well-drilling-contractors/</loc><changefreq>monthly</changefreq><priority>0.90</priority></url>
+    <url><loc>https://local.refrdai.com/industries/land-clearing-site-preparation-contractors/</loc><changefreq>monthly</changefreq><priority>0.90</priority></url>
+    <url><loc>https://local.refrdai.com/industries/standby-generator-installers/</loc><changefreq>monthly</changefreq><priority>0.90</priority></url>
+    <url><loc>https://local.refrdai.com/industries/drainage-grading-erosion-control-contractors/</loc><changefreq>monthly</changefreq><priority>0.90</priority></url>
+    <url><loc>https://local.refrdai.com/industries/inground-pool-builders/</loc><changefreq>monthly</changefreq><priority>0.90</priority></url>
+
 </urlset>
